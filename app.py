@@ -1,8 +1,9 @@
-from flask import Flask, render_template
 import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 import logging
+import pymongo
+from flask import Flask, render_template
 
 # Configure the logger to save logs to a file
 logging.basicConfig(filename='app.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -34,7 +35,7 @@ def get_price(soup):
         price = soup.find("span", attrs={"class": "a-price"}).find("span", attrs={"class":"a-offscreen"}).text.strip()
         return price
     except AttributeError:
-        price = ""
+        return ""
 
 # Function to get the Rating
 def get_rating(soup):
@@ -42,7 +43,7 @@ def get_rating(soup):
         rating = soup.find("i", attrs={"class": "a-icon-star"}).text.strip()
         return rating
     except AttributeError:
-        rating = ""
+        return ""
 
 # Function to get the Review
 def get_review(soup):
@@ -50,7 +51,7 @@ def get_review(soup):
         review = soup.find("span", attrs={"id": "acrCustomerReviewText"}).text.strip()
         return review
     except AttributeError:
-        review = ""
+        return ""
 
 def scrape_amazon(url):
     HEADER = {
@@ -84,8 +85,16 @@ def scrape_amazon(url):
         container["Reviews"].append(get_review(new_soup))
         logging.info("Scraped product: %s", container["Title"][-1])
 
-    amazon_df = pd.DataFrame.from_dict(container)
-    amazon_df.to_csv("amazon_data.csv", header=True, index=False)
+    if container["Title"]:  # Check if container is not empty
+        amazon_df = pd.DataFrame.from_dict(container)
+        amazon_df.to_csv("amazon_data.csv", header=True, index=False)
+
+        # MongoDB Integration
+        client = pymongo.MongoClient("mongodb+srv://rslan2033:pwskills@cluster0.vcwjdqv.mongodb.net/Amazon_scrapper?retryWrites=true&w=majority")
+        db = client["Amazon_scrapper"]
+        coll = db["scrapper_amazon_project"]
+        coll.insert_one(container)
+
     return container
 
 @app.route('/')
