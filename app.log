@@ -1,0 +1,175 @@
+2024-02-12 11:10:52,218 - INFO - Starting scraping process
+2024-02-12 11:10:52,220 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:10:52,569 - DEBUG - https://www.amazon.de:443 "GET /s?k=playstation+5&crid=2AAXQU3GXNXKC&sprefix=play%2Caps%2C84&ref=nb_sb_ss_ts-doa-p_1_4 HTTP/1.1" 200 None
+2024-02-12 11:10:53,466 - INFO - Scraping webpage: https://www.amazon.de/s?k=playstation+5&crid=2AAXQU3GXNXKC&sprefix=play%2Caps%2C84&ref=nb_sb_ss_ts-doa-p_1_4
+2024-02-12 11:10:53,471 - DEBUG - Found 23 product links
+2024-02-12 11:10:53,472 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:10:53,852 - DEBUG - https://www.amazon.de:443 "GET /Playstation-9577171-PlayStation%C2%AE5-Modellgruppe-Slim/dp/B0CLT54ZNZ/ref=sr_1_2?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-2 HTTP/1.1" 200 None
+2024-02-12 11:10:56,367 - INFO - Scraped product: PlayStation®5 (Modellgruppe – Slim)
+2024-02-12 11:10:56,368 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:10:56,751 - DEBUG - https://www.amazon.de:443 "GET /Playstation-9577294-PlayStation%C2%AE5-Digital-Edition-Modellgruppe/dp/B0CLTBHXWQ/ref=sr_1_3?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-3 HTTP/1.1" 200 None
+2024-02-12 11:10:59,192 - INFO - Scraped product: PlayStation®5 Digital-Edition (Modellgruppe – Slim)
+2024-02-12 11:10:59,193 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:10:59,580 - DEBUG - https://www.amazon.de:443 "GET /PlayStation%C2%AE5-Digital-zweitem-DualSenseTM-Wireless-Controller/dp/B0CQMF3VJK/ref=sr_1_4?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-4 HTTP/1.1" 200 None
+2024-02-12 11:11:01,673 - INFO - Scraped product: PlayStation®5 (Digital Edition) Bundle mit zweitem DualSense™ Wireless-Controller
+2024-02-12 11:11:01,674 - DEBUG - Starting new HTTPS connection (1): aax-eu.amazon.de:443
+2024-02-12 11:11:02,057 - DEBUG - https://aax-eu.amazon.de:443 "GET /x/c/RH5TN-69K3Y-60yhOevLrw0AAAGNnMxTDQMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDaNIC0/https://www.amazon.de/yeedi-Wischfunktion-Selbstwaschend-Selbsttrocknend-Selbstentleerend/dp/B0C5D67R4X/ref=sxin_14_sbv_search_btf?content-id=amzn1.sym.ed46438d-98ee-4dc0-8b02-c99fcb2be9b5%3Aamzn1.sym.ed46438d-98ee-4dc0-8b02-c99fcb2be9b5&crid=2AAXQU3GXNXKC&cv_ct_cx=playstation+5&keywords=playstation+5&pd_rd_i=B0C5D67R4X&pd_rd_r=9411465c-1f15-4d1e-8a49-1c1c99970b0b&pd_rd_w=NxBYG&pd_rd_wg=6NbxO&pf_rd_p=ed46438d-98ee-4dc0-8b02-c99fcb2be9b5&pf_rd_r=J9DFRJ2GEBW9CMTDE17F&qid=1707732652&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=play%2Caps%2C84&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81 HTTP/1.1" 302 0
+2024-02-12 11:11:02,059 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:02,438 - DEBUG - https://www.amazon.de:443 "GET /yeedi-Wischfunktion-Selbstwaschend-Selbsttrocknend-Selbstentleerend/dp/B0C5D67R4X/ref=sxin_14_sbv_search_btf?content-id=amzn1.sym.ed46438d-98ee-4dc0-8b02-c99fcb2be9b5%3Aamzn1.sym.ed46438d-98ee-4dc0-8b02-c99fcb2be9b5&crid=2AAXQU3GXNXKC&cv_ct_cx=playstation+5&keywords=playstation+5&pd_rd_i=B0C5D67R4X&pd_rd_r=9411465c-1f15-4d1e-8a49-1c1c99970b0b&pd_rd_w=NxBYG&pd_rd_wg=6NbxO&pf_rd_p=ed46438d-98ee-4dc0-8b02-c99fcb2be9b5&pf_rd_r=J9DFRJ2GEBW9CMTDE17F&qid=1707732652&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=play%2Caps%2C84&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81 HTTP/1.1" 200 None
+2024-02-12 11:11:04,921 - INFO - Scraped product: yeedi Cube Saugroboter mit Wischfunktion Absaugstation Selbstwaschend/Selbsttrocknend/Selbstentleerend, Teppich erkennen, Hindernis vermeiden, 5100 Pa Saugleistung, 5200 mAh Akku
+2024-02-12 11:11:04,922 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:05,314 - DEBUG - https://www.amazon.de:443 "GET /PlayStation-Store-Guthaben-Deutsches-Konto/dp/B00GWUSDII/ref=sr_1_5?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-5 HTTP/1.1" 200 None
+2024-02-12 11:11:07,286 - INFO - Scraped product: 5€ PlayStation Store Guthaben | PSN Deutsches Konto [Code per Email]
+2024-02-12 11:11:07,287 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:07,663 - DEBUG - https://www.amazon.de:443 "GET /Playstation-CFI-1216A-5-Standard-Konsole/dp/B08H93ZRK9/ref=sr_1_6?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-6 HTTP/1.1" 200 None
+2024-02-12 11:11:10,199 - INFO - Scraped product: Playstation 5 Standard Konsole
+2024-02-12 11:11:10,200 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:10,538 - DEBUG - https://www.amazon.de:443 "GET /sspa/click?ie=UTF8&spc=MTo4NTA5OTkzNjc5NDE2MDQyOjE3MDc3MzI2NTI6c3BfbXRmOjMwMDEyODAxMDIyNTMzMjo6MDo6&url=%2FGranblue-Fantasy-Relink-Day-PlayStation%2Fdp%2FB0CKYNG6R2%2Fref%3Dsr_1_7_sspa%3Fcrid%3D2AAXQU3GXNXKC%26keywords%3Dplaystation%2B5%26qid%3D1707732652%26sprefix%3Dplay%252Caps%252C84%26sr%3D8-7-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1 HTTP/1.1" 302 None
+2024-02-12 11:11:10,674 - DEBUG - https://www.amazon.de:443 "GET /Granblue-Fantasy-Relink-Day-PlayStation/dp/B0CKYNG6R2/ref=sr_1_7_sspa?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-7-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1 HTTP/1.1" 200 None
+2024-02-12 11:11:13,003 - INFO - Scraped product: Granblue Fantasy Relink Day One Edition (PlayStation 5)
+2024-02-12 11:11:13,005 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:13,387 - DEBUG - https://www.amazon.de:443 "GET /Sony-DualSense-Wireless-Controller-PlayStation-5/dp/B08H99BPJN/ref=sr_1_8?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-8 HTTP/1.1" 200 None
+2024-02-12 11:11:16,445 - INFO - Scraped product: DualSense Wireless-Controller [PlayStation 5 ]
+2024-02-12 11:11:16,447 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:16,891 - DEBUG - https://www.amazon.de:443 "GET /PlayStation%C2%AE5-EA-SPORTSTM-Bundle-Voucher/dp/B0CGV4SBDL/ref=sr_1_9_mod_primary_new?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=play%2Caps%2C84&sr=8-9 HTTP/1.1" 200 None
+2024-02-12 11:11:19,185 - INFO - Scraped product: PlayStation®5 - EA SPORTS™ FC 24 Bundle (Voucher)
+2024-02-12 11:11:19,186 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:19,558 - DEBUG - https://www.amazon.de:443 "GET /PlayStation%C2%AE5-Konsole-Ragnar%C3%B6k-Bundle-Voucher/dp/B0BK9MC6QM/ref=sr_1_10_mod_primary_new?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=play%2Caps%2C84&sr=8-10 HTTP/1.1" 200 None
+2024-02-12 11:11:21,912 - INFO - Scraped product: PlayStation®5 Konsole – God of War™ Ragnarök Bundle (Voucher)
+2024-02-12 11:11:21,913 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:22,293 - DEBUG - https://www.amazon.de:443 "GET /Sony-PS5-825GB-Digital-White/dp/B0BN48Z569/ref=sr_1_11?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-11 HTTP/1.1" 200 None
+2024-02-12 11:11:24,644 - INFO - Scraped product: Sony PS5 825GB Digital Edition White EU1
+2024-02-12 11:11:24,645 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:25,033 - DEBUG - https://www.amazon.de:443 "GET /Skull-Bones-Premium-PlayStation-5/dp/B0B61444Y2/ref=sr_1_12?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-12 HTTP/1.1" 200 None
+2024-02-12 11:11:27,065 - INFO - Scraped product: Skull and Bones - Premium Edition - [PlayStation 5]
+2024-02-12 11:11:27,067 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:27,370 - DEBUG - https://www.amazon.de:443 "GET /sspa/click?ie=UTF8&spc=MTo4NTA5OTkzNjc5NDE2MDQyOjE3MDc3MzI2NTI6c3BfbXRmOjMwMDEyODAyNzUwMTMzMjo6MDo6&url=%2FSticker-Playstation-Aufkleber-Konsole-Controller-SLIM-Gear-5%2Fdp%2FB0CQD3R946%2Fref%3Dsr_1_13_sspa%3Fcrid%3D2AAXQU3GXNXKC%26keywords%3Dplaystation%2B5%26qid%3D1707732652%26sprefix%3Dplay%252Caps%252C84%26sr%3D8-13-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1 HTTP/1.1" 302 None
+2024-02-12 11:11:27,521 - DEBUG - https://www.amazon.de:443 "GET /Sticker-Playstation-Aufkleber-Konsole-Controller-SLIM-Gear-5/dp/B0CQD3R946/ref=sr_1_13_sspa?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-13-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1 HTTP/1.1" 200 None
+2024-02-12 11:11:29,421 - INFO - Scraped product: PS5 Gear 5 Sticker, Playstation 5 Manga Aufkleber, Konsole und Controller, Slim Edition Digital, Gear 5 PS5 Skin (1 Controller)
+2024-02-12 11:11:29,422 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:29,828 - DEBUG - https://www.amazon.de:443 "GET /PlayStation-Store-Guthaben-Deutsches-Konto/dp/B07BC647XF/ref=sr_1_14?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-14 HTTP/1.1" 200 None
+2024-02-12 11:11:31,801 - INFO - Scraped product: 100€ PlayStation Store Guthaben | PSN Deutsches Konto [Code per Email]
+2024-02-12 11:11:31,802 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:32,194 - DEBUG - https://www.amazon.de:443 "GET /Sony-Interactive-Entertainment-DualSense-Ladestation-PlayStation/dp/B08H97WTBL/ref=sr_1_15?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-15 HTTP/1.1" 200 None
+2024-02-12 11:11:34,808 - INFO - Scraped product: DualSense-Ladestation [PlayStation 5], usb
+2024-02-12 11:11:34,809 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:35,205 - DEBUG - https://www.amazon.de:443 "GET /PlayStation%C2%AE5-Bundle-zweitem-DualSenseTM-Wireless-Controller/dp/B0CQMPN7DY/ref=sr_1_16?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-16 HTTP/1.1" 200 None
+2024-02-12 11:11:37,197 - INFO - Scraped product: PlayStation®5 (Disk) Bundle mit zweitem DualSense™ Wireless-Controller
+2024-02-12 11:11:37,198 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:37,590 - DEBUG - https://www.amazon.de:443 "GET /Playstation-PlayStation%C2%AE5-MARVELS%C2%B4S-SPIDER-MAN-2/dp/B0CK4K6N5Z/ref=sr_1_17?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-17 HTTP/1.1" 200 None
+2024-02-12 11:11:40,347 - INFO - Scraped product: PlayStation®5 – MARVELS´S SPIDER-MAN 2
+2024-02-12 11:11:40,348 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:40,649 - DEBUG - https://www.amazon.de:443 "GET /sspa/click?ie=UTF8&spc=MTo4NTA5OTkzNjc5NDE2MDQyOjE3MDc3MzI2NTI6c3BfbXRmOjMwMDEyODAyNzUwMTIzMjo6MDo6&url=%2FTrooper-Sticker-Playstation-Aufkleber-Controller-SLIM%2Fdp%2FB0CS3VCQT4%2Fref%3Dsr_1_18_sspa%3Fcrid%3D2AAXQU3GXNXKC%26keywords%3Dplaystation%2B5%26qid%3D1707732652%26sprefix%3Dplay%252Caps%252C84%26sr%3D8-18-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1 HTTP/1.1" 302 None
+2024-02-12 11:11:40,794 - DEBUG - https://www.amazon.de:443 "GET /Trooper-Sticker-Playstation-Aufkleber-Controller-SLIM/dp/B0CS3VCQT4/ref=sr_1_18_sspa?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-18-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1 HTTP/1.1" 200 None
+2024-02-12 11:11:42,640 - INFO - Scraped product: PS5 Trooper Sticker, Playstation 5 Gaming Aufkleber, Konsole und Controller, Slim Edition Digital, Skin Trooper (1 Controller)
+2024-02-12 11:11:42,641 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:43,016 - DEBUG - https://www.amazon.de:443 "GET /Playstation-Stellar-Blade/dp/B0CV4JW8XM/ref=sr_1_19?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-19 HTTP/1.1" 200 None
+2024-02-12 11:11:44,910 - INFO - Scraped product: Stellar Blade
+2024-02-12 11:11:44,911 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:45,289 - DEBUG - https://www.amazon.de:443 "GET /Playstation-9395003-PlayStation-5-Console/dp/B08H95Y452/ref=sr_1_20?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-20 HTTP/1.1" 200 None
+2024-02-12 11:11:47,753 - INFO - Scraped product: PlayStation 5 Console
+2024-02-12 11:11:47,755 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:48,070 - DEBUG - https://www.amazon.de:443 "GET /sspa/click?ie=UTF8&spc=MTo4NTA5OTkzNjc5NDE2MDQyOjE3MDc3MzI2NTI6c3BfYnRmOjMwMDExNjIwNTY4NDUzMjo6MDo6&url=%2FHELLCOOL-Controller-Ladestation-Playstation-Schnelllade%2Fdp%2FB0CM67YKKG%2Fref%3Dsr_1_21_sspa%3Fcrid%3D2AAXQU3GXNXKC%26keywords%3Dplaystation%2B5%26qid%3D1707732652%26sprefix%3Dplay%252Caps%252C84%26sr%3D8-21-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1 HTTP/1.1" 302 None
+2024-02-12 11:11:48,218 - DEBUG - https://www.amazon.de:443 "GET /HELLCOOL-Controller-Ladestation-Playstation-Schnelllade/dp/B0CM67YKKG/ref=sr_1_21_sspa?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-21-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1 HTTP/1.1" 200 None
+2024-02-12 11:11:50,331 - INFO - Scraped product: HELLCOOL PS5 Controller Ladestation, PS5 Ladestation für Dualsense Wireless/Edge Controller, Ladestation für Playstation 5 Controller, Ladestation PS5 Zubehör mit 2-3 Std Schnelllade/Cooles RGB Licht
+2024-02-12 11:11:50,332 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:50,647 - DEBUG - https://www.amazon.de:443 "GET /sspa/click?ie=UTF8&spc=MTo4NTA5OTkzNjc5NDE2MDQyOjE3MDc3MzI2NTI6c3BfYnRmOjMwMDEyNzQyNTQzNDYzMjo6MDo6&url=%2FHeadset-Surround-Cancelling-Kopfh%25C3%25B6rer-Mikrofon-Blau%2Fdp%2FB09YNBXBD3%2Fref%3Dsr_1_22_sspa%3Fcrid%3D2AAXQU3GXNXKC%26keywords%3Dplaystation%2B5%26qid%3D1707732652%26sprefix%3Dplay%252Caps%252C84%26sr%3D8-22-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1 HTTP/1.1" 302 None
+2024-02-12 11:11:50,776 - DEBUG - https://www.amazon.de:443 "GET /Headset-Surround-Cancelling-Kopfh%C3%B6rer-Mikrofon-Blau/dp/B09YNBXBD3/ref=sr_1_22_sspa?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732652&sprefix=play%2Caps%2C84&sr=8-22-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1 HTTP/1.1" 200 None
+2024-02-12 11:11:53,323 - INFO - Scraped product: Ozeino Gaming Headset für PS4 PS5 3D Surround Sound Noise Cancelling Kopfhörer Mit Mikrofon Für PC Xbox One Switch with LED Licht
+2024-02-12 11:11:53,325 - DEBUG - Starting new HTTPS connection (1): aax-eu.amazon.de:443
+2024-02-12 11:11:53,745 - DEBUG - https://aax-eu.amazon.de:443 "GET /x/c/RCKQF9JXHvf6ahxQkAL0EP8AAAGNnMxTIgMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICB2TwFB/https://www.amazon.de/MENEEA-Horizontaler-Playstation-Ladeanschluss-Erweiterung/dp/B0CMLD3FKQ/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.285f23ec-1291-4632-8012-4cc1a0f24e2a%3Aamzn1.sym.285f23ec-1291-4632-8012-4cc1a0f24e2a&crid=2AAXQU3GXNXKC&cv_ct_cx=playstation+5&keywords=playstation+5&pd_rd_i=B0CMLD3FKQ&pd_rd_r=81af4b28-5fdd-4889-91c5-ef39735ca62b&pd_rd_w=oSuxG&pd_rd_wg=i5obk&pf_rd_p=285f23ec-1291-4632-8012-4cc1a0f24e2a&pf_rd_r=J9DFRJ2GEBW9CMTDE17F&qid=1707732652&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=play%2Caps%2C84&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55 HTTP/1.1" 302 0
+2024-02-12 11:11:53,748 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:54,186 - DEBUG - https://www.amazon.de:443 "GET /MENEEA-Horizontaler-Playstation-Ladeanschluss-Erweiterung/dp/B0CMLD3FKQ/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.285f23ec-1291-4632-8012-4cc1a0f24e2a%3Aamzn1.sym.285f23ec-1291-4632-8012-4cc1a0f24e2a&crid=2AAXQU3GXNXKC&cv_ct_cx=playstation+5&keywords=playstation+5&pd_rd_i=B0CMLD3FKQ&pd_rd_r=81af4b28-5fdd-4889-91c5-ef39735ca62b&pd_rd_w=oSuxG&pd_rd_wg=i5obk&pf_rd_p=285f23ec-1291-4632-8012-4cc1a0f24e2a&pf_rd_r=J9DFRJ2GEBW9CMTDE17F&qid=1707732652&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=play%2Caps%2C84&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55 HTTP/1.1" 200 None
+2024-02-12 11:11:56,193 - INFO - Scraped product: MENEEA Horizontaler Stand für Neue PS5 Slim Konsole mit 4-Port USB Hub, Standfuß Zubehör für 2023 Playstation 5 Slim Disc & Digital Edition, Halter mit 4 USB 2.0 Data Port & Ladeanschluss Erweiterung
+2024-02-12 11:11:56,200 - INFO - Scraping process completed
+2024-02-12 11:11:56,208 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-12 11:11:56,208 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-12 11:11:56,209 - INFO -  * Restarting with stat
+2024-02-12 11:11:56,781 - INFO - Starting scraping process
+2024-02-12 11:11:56,784 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:57,098 - DEBUG - https://www.amazon.de:443 "GET /s?k=playstation+5&crid=2AAXQU3GXNXKC&sprefix=play%2Caps%2C84&ref=nb_sb_ss_ts-doa-p_1_4 HTTP/1.1" 200 None
+2024-02-12 11:11:58,034 - INFO - Scraping webpage: https://www.amazon.de/s?k=playstation+5&crid=2AAXQU3GXNXKC&sprefix=play%2Caps%2C84&ref=nb_sb_ss_ts-doa-p_1_4
+2024-02-12 11:11:58,039 - DEBUG - Found 23 product links
+2024-02-12 11:11:58,040 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:11:59,010 - DEBUG - https://www.amazon.de:443 "GET /Playstation-9577171-PlayStation%C2%AE5-Modellgruppe-Slim/dp/B0CLT54ZNZ/ref=sr_1_2?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-2 HTTP/1.1" 200 None
+2024-02-12 11:12:01,832 - INFO - Scraped product: PlayStation®5 (Modellgruppe – Slim)
+2024-02-12 11:12:01,834 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:02,248 - DEBUG - https://www.amazon.de:443 "GET /Playstation-9577294-PlayStation%C2%AE5-Digital-Edition-Modellgruppe/dp/B0CLTBHXWQ/ref=sr_1_3?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-3 HTTP/1.1" 200 None
+2024-02-12 11:12:04,437 - INFO - Scraped product: PlayStation®5 Digital-Edition (Modellgruppe – Slim)
+2024-02-12 11:12:04,437 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:04,832 - DEBUG - https://www.amazon.de:443 "GET /PlayStation%C2%AE5-Digital-zweitem-DualSenseTM-Wireless-Controller/dp/B0CQMF3VJK/ref=sr_1_4?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-4 HTTP/1.1" 200 None
+2024-02-12 11:12:06,832 - INFO - Scraped product: PlayStation®5 (Digital Edition) Bundle mit zweitem DualSense™ Wireless-Controller
+2024-02-12 11:12:06,834 - DEBUG - Starting new HTTPS connection (1): aax-eu.amazon.de:443
+2024-02-12 11:12:07,243 - DEBUG - https://aax-eu.amazon.de:443 "GET /x/c/RLEovIqWnllA-yTH3RKvwukAAAGNnM1PMgMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICDyyMKP/https://www.amazon.de/yeedi-Wischfunktion-Selbstwaschend-Selbsttrocknend-Selbstentleerend/dp/B0C5D67R4X/ref=sxin_14_sbv_search_btf?content-id=amzn1.sym.ed46438d-98ee-4dc0-8b02-c99fcb2be9b5%3Aamzn1.sym.ed46438d-98ee-4dc0-8b02-c99fcb2be9b5&crid=2AAXQU3GXNXKC&cv_ct_cx=playstation+5&keywords=playstation+5&pd_rd_i=B0C5D67R4X&pd_rd_r=5a8639da-74a1-4912-8d02-e2bf575c533c&pd_rd_w=7W5m7&pd_rd_wg=95pFx&pf_rd_p=ed46438d-98ee-4dc0-8b02-c99fcb2be9b5&pf_rd_r=5YHQQBEGVRJZP880MP6S&qid=1707732717&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=play%2Caps%2C84&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81 HTTP/1.1" 302 0
+2024-02-12 11:12:07,245 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:07,690 - DEBUG - https://www.amazon.de:443 "GET /yeedi-Wischfunktion-Selbstwaschend-Selbsttrocknend-Selbstentleerend/dp/B0C5D67R4X/ref=sxin_14_sbv_search_btf?content-id=amzn1.sym.ed46438d-98ee-4dc0-8b02-c99fcb2be9b5%3Aamzn1.sym.ed46438d-98ee-4dc0-8b02-c99fcb2be9b5&crid=2AAXQU3GXNXKC&cv_ct_cx=playstation+5&keywords=playstation+5&pd_rd_i=B0C5D67R4X&pd_rd_r=5a8639da-74a1-4912-8d02-e2bf575c533c&pd_rd_w=7W5m7&pd_rd_wg=95pFx&pf_rd_p=ed46438d-98ee-4dc0-8b02-c99fcb2be9b5&pf_rd_r=5YHQQBEGVRJZP880MP6S&qid=1707732717&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=play%2Caps%2C84&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81 HTTP/1.1" 200 None
+2024-02-12 11:12:10,004 - INFO - Scraped product: yeedi Cube Saugroboter mit Wischfunktion Absaugstation Selbstwaschend/Selbsttrocknend/Selbstentleerend, Teppich erkennen, Hindernis vermeiden, 5100 Pa Saugleistung, 5200 mAh Akku
+2024-02-12 11:12:10,005 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:10,405 - DEBUG - https://www.amazon.de:443 "GET /PlayStation-Store-Guthaben-Deutsches-Konto/dp/B00GWUSDII/ref=sr_1_5?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-5 HTTP/1.1" 200 None
+2024-02-12 11:12:12,353 - INFO - Scraped product: 5€ PlayStation Store Guthaben | PSN Deutsches Konto [Code per Email]
+2024-02-12 11:12:12,355 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:12,779 - DEBUG - https://www.amazon.de:443 "GET /Playstation-CFI-1216A-5-Standard-Konsole/dp/B08H93ZRK9/ref=sr_1_6?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-6 HTTP/1.1" 200 None
+2024-02-12 11:12:15,226 - INFO - Scraped product: Playstation 5 Standard Konsole
+2024-02-12 11:12:15,226 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:15,559 - DEBUG - https://www.amazon.de:443 "GET /sspa/click?ie=UTF8&spc=MTozNDM3MTE3NDE0NjM2MDQyOjE3MDc3MzI3MTc6c3BfbXRmOjMwMDEyODAxMDIyNTMzMjo6MDo6&url=%2FGranblue-Fantasy-Relink-Day-PlayStation%2Fdp%2FB0CKYNG6R2%2Fref%3Dsr_1_7_sspa%3Fcrid%3D2AAXQU3GXNXKC%26keywords%3Dplaystation%2B5%26qid%3D1707732717%26sprefix%3Dplay%252Caps%252C84%26sr%3D8-7-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1 HTTP/1.1" 302 None
+2024-02-12 11:12:15,725 - DEBUG - https://www.amazon.de:443 "GET /Granblue-Fantasy-Relink-Day-PlayStation/dp/B0CKYNG6R2/ref=sr_1_7_sspa?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-7-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1 HTTP/1.1" 200 None
+2024-02-12 11:12:17,920 - INFO - Scraped product: Granblue Fantasy Relink Day One Edition (PlayStation 5)
+2024-02-12 11:12:17,922 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:18,338 - DEBUG - https://www.amazon.de:443 "GET /Sony-DualSense-Wireless-Controller-PlayStation-5/dp/B08H99BPJN/ref=sr_1_8?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-8 HTTP/1.1" 200 None
+2024-02-12 11:12:21,430 - INFO - Scraped product: DualSense Wireless-Controller [PlayStation 5 ]
+2024-02-12 11:12:21,431 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:21,879 - DEBUG - https://www.amazon.de:443 "GET /PlayStation%C2%AE5-EA-SPORTSTM-Bundle-Voucher/dp/B0CGV4SBDL/ref=sr_1_9_mod_primary_new?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=play%2Caps%2C84&sr=8-9 HTTP/1.1" 200 None
+2024-02-12 11:12:23,940 - INFO - Scraped product: PlayStation®5 - EA SPORTS™ FC 24 Bundle (Voucher)
+2024-02-12 11:12:23,941 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:24,386 - DEBUG - https://www.amazon.de:443 "GET /PlayStation%C2%AE5-Konsole-Ragnar%C3%B6k-Bundle-Voucher/dp/B0BK9MC6QM/ref=sr_1_10_mod_primary_new?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=play%2Caps%2C84&sr=8-10 HTTP/1.1" 200 None
+2024-02-12 11:12:26,621 - INFO - Scraped product: PlayStation®5 Konsole – God of War™ Ragnarök Bundle (Voucher)
+2024-02-12 11:12:26,622 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:27,011 - DEBUG - https://www.amazon.de:443 "GET /Sony-PS5-825GB-Digital-White/dp/B0BN48Z569/ref=sr_1_11?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-11 HTTP/1.1" 200 None
+2024-02-12 11:12:29,113 - INFO - Scraped product: Sony PS5 825GB Digital Edition White EU1
+2024-02-12 11:12:29,114 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:29,565 - DEBUG - https://www.amazon.de:443 "GET /Skull-Bones-Premium-PlayStation-5/dp/B0B61444Y2/ref=sr_1_12?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-12 HTTP/1.1" 200 None
+2024-02-12 11:12:31,524 - INFO - Scraped product: Skull and Bones - Premium Edition - [PlayStation 5]
+2024-02-12 11:12:31,525 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:31,863 - DEBUG - https://www.amazon.de:443 "GET /sspa/click?ie=UTF8&spc=MTozNDM3MTE3NDE0NjM2MDQyOjE3MDc3MzI3MTc6c3BfbXRmOjMwMDEyODAyNzUwMTMzMjo6MDo6&url=%2FSticker-Playstation-Aufkleber-Konsole-Controller-SLIM-Gear-5%2Fdp%2FB0CQD3R946%2Fref%3Dsr_1_13_sspa%3Fcrid%3D2AAXQU3GXNXKC%26keywords%3Dplaystation%2B5%26qid%3D1707732717%26sprefix%3Dplay%252Caps%252C84%26sr%3D8-13-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1 HTTP/1.1" 302 None
+2024-02-12 11:12:31,998 - DEBUG - https://www.amazon.de:443 "GET /Sticker-Playstation-Aufkleber-Konsole-Controller-SLIM-Gear-5/dp/B0CQD3R946/ref=sr_1_13_sspa?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-13-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1 HTTP/1.1" 200 None
+2024-02-12 11:12:33,940 - INFO - Scraped product: PS5 Gear 5 Sticker, Playstation 5 Manga Aufkleber, Konsole und Controller, Slim Edition Digital, Gear 5 PS5 Skin (1 Controller)
+2024-02-12 11:12:33,941 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:34,359 - DEBUG - https://www.amazon.de:443 "GET /PlayStation-Store-Guthaben-Deutsches-Konto/dp/B07BC647XF/ref=sr_1_14?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-14 HTTP/1.1" 200 None
+2024-02-12 11:12:36,125 - INFO - Scraped product: 100€ PlayStation Store Guthaben | PSN Deutsches Konto [Code per Email]
+2024-02-12 11:12:36,126 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:36,546 - DEBUG - https://www.amazon.de:443 "GET /Sony-Interactive-Entertainment-DualSense-Ladestation-PlayStation/dp/B08H97WTBL/ref=sr_1_15?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-15 HTTP/1.1" 200 None
+2024-02-12 11:12:38,939 - INFO - Scraped product: DualSense-Ladestation [PlayStation 5], usb
+2024-02-12 11:12:38,941 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:39,326 - DEBUG - https://www.amazon.de:443 "GET /PlayStation%C2%AE5-Bundle-zweitem-DualSenseTM-Wireless-Controller/dp/B0CQMPN7DY/ref=sr_1_16?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-16 HTTP/1.1" 200 None
+2024-02-12 11:12:41,176 - INFO - Scraped product: PlayStation®5 (Disk) Bundle mit zweitem DualSense™ Wireless-Controller
+2024-02-12 11:12:41,177 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:41,571 - DEBUG - https://www.amazon.de:443 "GET /Playstation-PlayStation%C2%AE5-MARVELS%C2%B4S-SPIDER-MAN-2/dp/B0CK4K6N5Z/ref=sr_1_17?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-17 HTTP/1.1" 200 None
+2024-02-12 11:12:43,513 - INFO - Scraped product: PlayStation®5 – MARVELS´S SPIDER-MAN 2
+2024-02-12 11:12:43,514 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:43,845 - DEBUG - https://www.amazon.de:443 "GET /sspa/click?ie=UTF8&spc=MTozNDM3MTE3NDE0NjM2MDQyOjE3MDc3MzI3MTc6c3BfbXRmOjIwMTYzODAzMDExNzk4OjowOjo&url=%2FLadestation-Kompatibel-K%25C3%25BChlst%25C3%25A4nder-Abnehmbarer-Vertikaler-Gr%25C3%25BCn-Rot%2Fdp%2FB09F6MJ3DN%2Fref%3Dsr_1_18_sspa%3Fcrid%3D2AAXQU3GXNXKC%26keywords%3Dplaystation%2B5%26qid%3D1707732717%26sprefix%3Dplay%252Caps%252C84%26sr%3D8-18-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1 HTTP/1.1" 302 None
+2024-02-12 11:12:43,987 - DEBUG - https://www.amazon.de:443 "GET /Ladestation-Kompatibel-K%C3%BChlst%C3%A4nder-Abnehmbarer-Vertikaler-Gr%C3%BCn-Rot/dp/B09F6MJ3DN/ref=sr_1_18_sspa?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-18-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1 HTTP/1.1" 200 None
+2024-02-12 11:12:45,921 - INFO - Scraped product: Ladestation Ständer Kompatibel mit PS5, PS 5 Charging Dock Lüfter, 3-in-1 Kühlständer Abnehmbarer Headset Vertikaler Cooling Stand Halterung für PS 5 Disc und Digital Edition
+2024-02-12 11:12:45,922 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:46,336 - DEBUG - https://www.amazon.de:443 "GET /Playstation-Stellar-Blade/dp/B0CV4JW8XM/ref=sr_1_19?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-19 HTTP/1.1" 200 None
+2024-02-12 11:12:48,221 - INFO - Scraped product: Stellar Blade
+2024-02-12 11:12:48,222 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:48,622 - DEBUG - https://www.amazon.de:443 "GET /Playstation-9395003-PlayStation-5-Console/dp/B08H95Y452/ref=sr_1_20?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-20 HTTP/1.1" 200 None
+2024-02-12 11:12:50,894 - INFO - Scraped product: PlayStation 5 Console
+2024-02-12 11:12:50,895 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:51,235 - DEBUG - https://www.amazon.de:443 "GET /sspa/click?ie=UTF8&spc=MTozNDM3MTE3NDE0NjM2MDQyOjE3MDc3MzI3MTc6c3BfYnRmOjMwMDExNjIwNTY4NDUzMjo6MDo6&url=%2FHELLCOOL-Controller-Ladestation-Playstation-Schnelllade%2Fdp%2FB0CM67YKKG%2Fref%3Dsr_1_21_sspa%3Fcrid%3D2AAXQU3GXNXKC%26keywords%3Dplaystation%2B5%26qid%3D1707732717%26sprefix%3Dplay%252Caps%252C84%26sr%3D8-21-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1 HTTP/1.1" 302 None
+2024-02-12 11:12:51,384 - DEBUG - https://www.amazon.de:443 "GET /HELLCOOL-Controller-Ladestation-Playstation-Schnelllade/dp/B0CM67YKKG/ref=sr_1_21_sspa?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-21-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1 HTTP/1.1" 200 None
+2024-02-12 11:12:53,395 - INFO - Scraped product: HELLCOOL PS5 Controller Ladestation, PS5 Ladestation für Dualsense Wireless/Edge Controller, Ladestation für Playstation 5 Controller, Ladestation PS5 Zubehör mit 2-3 Std Schnelllade/Cooles RGB Licht
+2024-02-12 11:12:53,396 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:53,731 - DEBUG - https://www.amazon.de:443 "GET /sspa/click?ie=UTF8&spc=MTozNDM3MTE3NDE0NjM2MDQyOjE3MDc3MzI3MTc6c3BfYnRmOjMwMDAwNTE0MzA3MTUzMjo6MDo6&url=%2FGAMSINGY-Controller-Ladestation-Playstation-Schnelllade-Wei%25C3%259F%2Fdp%2FB0C4DWNM2G%2Fref%3Dsr_1_22_sspa%3Fcrid%3D2AAXQU3GXNXKC%26keywords%3Dplaystation%2B5%26qid%3D1707732717%26sprefix%3Dplay%252Caps%252C84%26sr%3D8-22-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1 HTTP/1.1" 302 None
+2024-02-12 11:12:53,870 - DEBUG - https://www.amazon.de:443 "GET /GAMSINGY-Controller-Ladestation-Playstation-Schnelllade-Wei%C3%9F/dp/B0C4DWNM2G/ref=sr_1_22_sspa?crid=2AAXQU3GXNXKC&keywords=playstation+5&qid=1707732717&sprefix=play%2Caps%2C84&sr=8-22-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1 HTTP/1.1" 200 None
+2024-02-12 11:12:56,201 - INFO - Scraped product: GAMSINGY PS5 Controller Ladestation, PS5 Zubehörsets Ladestation für Dualsense Wireless/Edge Controller, Ladestation für Playstation 5 Controller mit 2Std Schnelllade/Cooles RGB Licht
+2024-02-12 11:12:56,203 - DEBUG - Starting new HTTPS connection (1): aax-eu.amazon.de:443
+2024-02-12 11:12:56,674 - DEBUG - https://aax-eu.amazon.de:443 "GET /x/c/RDEQ7AoYXIUHrj4sw6zcnQYAAAGNnM1PPgMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCtOs5r/https://www.amazon.de/MENEEA-Horizontaler-Playstation-Ladeanschluss-Erweiterung/dp/B0CMLD3FKQ/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.285f23ec-1291-4632-8012-4cc1a0f24e2a%3Aamzn1.sym.285f23ec-1291-4632-8012-4cc1a0f24e2a&crid=2AAXQU3GXNXKC&cv_ct_cx=playstation+5&keywords=playstation+5&pd_rd_i=B0CMLD3FKQ&pd_rd_r=277c7928-4b73-49df-9fb6-693790a472cf&pd_rd_w=YVxqg&pd_rd_wg=ZCja3&pf_rd_p=285f23ec-1291-4632-8012-4cc1a0f24e2a&pf_rd_r=5YHQQBEGVRJZP880MP6S&qid=1707732717&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=play%2Caps%2C84&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55 HTTP/1.1" 302 0
+2024-02-12 11:12:56,677 - DEBUG - Starting new HTTPS connection (1): www.amazon.de:443
+2024-02-12 11:12:57,144 - DEBUG - https://www.amazon.de:443 "GET /MENEEA-Horizontaler-Playstation-Ladeanschluss-Erweiterung/dp/B0CMLD3FKQ/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.285f23ec-1291-4632-8012-4cc1a0f24e2a%3Aamzn1.sym.285f23ec-1291-4632-8012-4cc1a0f24e2a&crid=2AAXQU3GXNXKC&cv_ct_cx=playstation+5&keywords=playstation+5&pd_rd_i=B0CMLD3FKQ&pd_rd_r=277c7928-4b73-49df-9fb6-693790a472cf&pd_rd_w=YVxqg&pd_rd_wg=ZCja3&pf_rd_p=285f23ec-1291-4632-8012-4cc1a0f24e2a&pf_rd_r=5YHQQBEGVRJZP880MP6S&qid=1707732717&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=play%2Caps%2C84&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55 HTTP/1.1" 200 None
+2024-02-12 11:12:59,171 - INFO - Scraped product: MENEEA Horizontaler Stand für Neue PS5 Slim Konsole mit 4-Port USB Hub, Standfuß Zubehör für 2023 Playstation 5 Slim Disc & Digital Edition, Halter mit 4 USB 2.0 Data Port & Ladeanschluss Erweiterung
+2024-02-12 11:12:59,178 - INFO - Scraping process completed
+2024-02-12 11:12:59,183 - WARNING -  * Debugger is active!
+2024-02-12 11:12:59,187 - INFO -  * Debugger PIN: 956-137-562
+2024-02-12 11:12:59,238 - INFO - 127.0.0.1 - - [12/Feb/2024 11:12:59] "GET / HTTP/1.1" 200 -

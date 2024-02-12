@@ -1,0 +1,23 @@
+/* Specific styling for index.html */
+#index-content {
+    margin-top: 50px;
+}
+
+/* Specific styling for result.html */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
